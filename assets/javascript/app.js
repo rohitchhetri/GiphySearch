@@ -1,3 +1,6 @@
 //Javascript is connected 
 
-alert("Giphy App Connected")
+
+function comingSoon(){
+document.getElementById("btnSearch").innerHTML =  alert(" Coming Soon" );
+}
