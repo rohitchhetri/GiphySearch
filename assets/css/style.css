@@ -27,3 +27,22 @@ body{
     text-align: center; 
     margin: 0 auto;
 }
+
+/* .gif-views{
+
+    color: red;
+    background-color: white;
+
+} */
+
+.imgDiv{
+    color: red;
+    background-color: white;
+    float: left;
+}
+.imgDiv > img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
