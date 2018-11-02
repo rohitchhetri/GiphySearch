@@ -10,7 +10,11 @@ Technologies Use
 
 About Application: 
 
-Giphy Search App created with help Giphy Api. User can search any tag on input text & It generates the tag button above and it display 10 image of input search 
+Giphy Search App created with help Giphy Api. User can search any tag on input text & It generates the tag button above and it display 10 image of input search.
+
+#Flow
+
+- When user search it will display Still Image. As soon as Image is click it will show animation of same image. Rating is display and Download Link to download the image. 
 
 Validation 
 

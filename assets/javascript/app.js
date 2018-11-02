@@ -75,7 +75,9 @@ $(document).ready(function () {
 
                 var download = $("<a>").attr('href', imgURL).text("Download")
 
-                download.attr("download");
+                download.attr("download", 'file');
+
+                var breakLine =$("<hr>");
                 // var btnDownload = $("<a href=");
 
                 // btnDownload.attr("download", imgURL);
@@ -86,6 +88,8 @@ $(document).ready(function () {
 
                 //Putting the entire image above the previous gif 
                 $("#gif-views").prepend(imageDiv);
+
+                imageDiv.append(breakLine);
             }
 
         });
